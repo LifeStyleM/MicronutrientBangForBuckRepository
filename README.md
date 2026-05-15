@@ -6,6 +6,7 @@
 - [Notes](#notes)
 - [Category of Micronutrients](#category-of-micronutrients)
 - [Formatting of text file](#format-of-text-file)
+- [Guide](#guide)
 
 ## Intentions
 
@@ -101,3 +102,11 @@ IDs. This is so that we don't have to type out the whole name of it.
 
 Contract: No plural words (e.g., apple instead of apples)
 
+
+## Guide
+Simply add stuff in the shopping.txt for your food, for that specific day. It will prompt you for the respective food's category (micronutrient and general category). 
+You can add it and you can also delete it as well. 
+
+This is a simple program for seeing if the shopping list fulfills the micronutrients (for now).
+
+The next iteration will sort based on the metrics of each individual food, based on the season/cultivation availability, monetary cost, and/or effect (cancer, energy, sleep, metabolism). For metabolism, it is foods like oats that stabilize blood sugar processing/metabolism.
