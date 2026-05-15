@@ -3,25 +3,31 @@
 ## Overview
 
 - [Intentions](#intentions)
+- [Notes](#notes)
 - [Category of Micronutrients](#category-of-micronutrients)
 - [Formatting of text file](#format-of-text-file)
 
 ## Intentions
 
-Intention: to make a program able to find the common foods between vitamins and elements, regarding micronutrients. Additionally, to sort out which ones are more versatile across seasons, to form a platform/baseline of what foods able to relied on for any season.
+Intention: 
+1. To make a program able to find the common foods between vitamins and elements, regarding micronutrients. (DONE)
+2. To sort out which ones are more versatile across seasons, to form a platform/baseline of what foods able to relied on for any season. (TO DO)
+3. To make sure our shopping cart adheres to most if not all of the micronutrients. (DONE)
 
 Current Constraint: There is no criteria to identify which food is more intense/plenty in one micronutrient compared to another.
 
-Current Iteration: Currently making a text file that is formatted correctly to allow a script to store the foods in their respective micronutrient.
+DONE:
+1. Currently making a text file that is formatted correctly to allow a script to store the foods in their respective micronutrient.
+2. Making a script to identify the shared foods between one micronutrient to another. 
 
 Next Iteration:
-1. Making a script to identify the shared foods between one micronutrient to another. 
-2. Making a script to sort out what the user wants, based on the metric of monetary cost, season/availiability grouping, and effect grouping. 
+1. Making a script to sort out what the user wants, based on the metric of monetary cost, season/availiability grouping, and effect grouping. 
 
+## Notes
+Since we are going to have each food have their own traits (season/availability, effects, monetary cost),
+each food will be their own class. 
 
-Preparing for next steps:
-- Since we are going to have each food have their own traits (season/availability, effects, monetary cost),
-we will prepare ahead and make each food be their own class. 
+Furthermore, refer to the food_category.rb within FactoryData for details about the general category of foods.
 
 
 ## Category of Micronutrients
@@ -92,3 +98,4 @@ Foods (String): (foods)
 IDs. This is so that we don't have to type out the whole name of it. 
 
 Contract: No plural words (e.g., apple instead of apples)
+
