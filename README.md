@@ -16,6 +16,7 @@ Preparing for next steps:
 we will prepare ahead and make each food be their own class. 
 
 ––––––––––––––––––––––––
+
 Category of Micronutrients:
 Fatty Acids (pseudo vitamin - used to be vitamin F)
 
@@ -51,6 +52,7 @@ Why we include elements: You can have a deficiency in Zn and such. We want to en
 Contract: No plural words (e.g., apple instead of apples)
 
 ––––––––––––––––––––––––
+
 Format of text file:
 MN#: (Micronutrient name) (Class) 
 Foods (String): (foods)
