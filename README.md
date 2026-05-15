@@ -83,13 +83,10 @@ Elements (Fe, Mg, Ca, Zn, Se, K, Na, Cu, P, I, Mn)
 
 Why we include elements: You can have a deficiency in Zn and such. We want to ensure that our body is healthy and functional enough for other tasks. 
 
-
-Contract: No plural words (e.g., apple instead of apples)
-
-
 ## Format of text file
 MN#: (Micronutrient name) (Class) 
 Foods (String): (foods)
 - Note: # is the ID of the individual micronutrient. We will have an option to list out all of the micronutrients and mark their
 IDs. This is so that we don't have to type out the whole name of it. 
 
+Contract: No plural words (e.g., apple instead of apples)
