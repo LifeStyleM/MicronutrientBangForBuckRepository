@@ -1,0 +1,78 @@
+Sleep:
+F4 (apple): Quercetin, Epicatechin — Quercetin improved night-time sleep in a clinical trial.
+F21 (blackberry): Myricetin — Myricetin protected against sleep-deprivation cognitive impairment in rats.
+F22 (blackcurrant): Myricetin — Myricetin protected against sleep-deprivation cognitive impairment in rats.
+F23 (blueberry): Myricetin, Manganese — Myricetin protected against sleep-deprivation cognitive impairment; both low and high manganese levels are associated with poorer sleep.
+F41 (cherry): Myricetin — Myricetin protected against sleep-deprivation cognitive impairment in rats.
+F58 (cranberry): Myricetin — Myricetin protected against sleep-deprivation cognitive impairment in rats.
+F63 (dried apricot): Potassium — Higher potassium intake is linked to fewer insomnia symptoms and better sleep quality.
+F9 (banana): Potassium — Higher potassium intake is linked to fewer insomnia symptoms and better sleep quality.
+F134 (orange juice): Potassium — Higher potassium intake is linked to fewer insomnia symptoms and better sleep quality.
+F146 (pineapple): Manganese — Both low and high manganese levels are associated with poorer sleep in adults.
+F158 (prune): Potassium — Higher potassium intake is linked to fewer insomnia symptoms and better sleep quality.
+F161 (raisin): Potassium — Higher potassium intake is linked to fewer insomnia symptoms and better sleep quality.
+F165 (red grape): Myricetin — Myricetin protected against sleep-deprivation cognitive impairment in rats.
+
+Energy:
+F4 (apple): Riboflavin (B2), Epicatechin — B2 regulates energy metabolism; epicatechin improves mitochondrial function.
+F7 (avocado): Pantothenic acid (B5), Copper — B5 is a component of coenzyme A, essential for energy-yielding metabolism.
+F21 (blackberry): Myricetin, Cyanidin — Myricetin increased energy expenditure in mice; cyanidin-3-glucoside upregulated brown-fat thermogenesis.
+F23 (blueberry): Manganese, Myricetin, Cyanidin — Manganese is a cofactor for enzymes in energy metabolism; myricetin increased energy expenditure; cyanidin upregulated brown-fat thermogenesis.
+F41 (cherry): Myricetin, Cyanidin — Myricetin increased energy expenditure; cyanidin-3-glucoside upregulated brown-fat thermogenesis.
+F58 (cranberry): Myricetin, Cyanidin — Myricetin increased energy expenditure; cyanidin upregulated brown-fat thermogenesis.
+F69 (elderberry): Delphinidin — Delphinidin shows excellent electron-donating capabilities (chemical energy potential).
+F151 (pomegranate): Delphinidin — Delphinidin shows excellent electron-donating capabilities (chemical energy potential).
+F165 (red grape): Myricetin, Cyanidin — Myricetin increased energy expenditure; cyanidin upregulated brown-fat thermogenesis.
+
+Exercise & Performance:
+F4 (apple): Quercetin, Kaempferol, Epicatechin, Fisetin — Quercetin enhanced cycling time-to-exhaustion and accelerated recovery; kaempferol improved high-intensity exercise capacity and oxygen utilization; epicatechin enhanced fatigue resistance and mitochondrial biogenesis; fisetin combined with exercise improved strength/mitochondrial markers.
+F7 (avocado): Copper — Copper is a cofactor for energy-producing enzymes important during physical exertion.
+F9 (banana): Potassium — Potassium regulation during exercise is critical for muscle contraction and recovery.
+F21 (blackberry): Myricetin, Epicatechin, Fisetin, Cyanidin, Peonidin — Myricetin improved endurance capacity by inducing slow-twitch muscle fiber switch; epicatechin enhanced fatigue resistance; cyanidin-3-glucoside enhanced exercise performance.
+F22 (blackcurrant): Myricetin — Myricetin improved endurance capacity by inducing slow-twitch muscle fiber switch.
+F23 (blueberry): Quercetin, Epicatechin, Myricetin, Cyanidin, Delphinidin, Peonidin — Multiple flavonoids enhanced performance, endurance capacity, and recovery.
+F41 (cherry): Quercetin, Epicatechin, Fisetin, Cyanidin, Peonidin — Quercetin accelerated recovery from muscle damage; cyanidin enhanced exercise performance.
+F47 (citrus fruit): Vitamin C (Ascorbic acid) — Vitamin C attenuated exercise-induced oxidative stress and inflammation.
+F58 (cranberry): Quercetin, Myricetin, Cyanidin, Peonidin — Quercetin enhanced endurance; myricetin improved endurance capacity.
+F63 (dried apricot): Potassium — Potassium regulation during exercise is critical for muscle contraction and recovery.
+F69 (elderberry): Quercetin, Cyanidin, Delphinidin — Quercetin accelerated recovery; cyanidin and delphinidin prevented disuse muscle atrophy.
+F81 (fortified fruit juice): Calcium, Vitamin D (Ergocalciferol) — Calcium supports bone strength and muscle function; vitamin D aids calcium absorption and muscle metabolism.
+F85 (fortified orange juice): Calcium, Vitamin D (Ergocalciferol) — Calcium supports bone strength and muscle function; vitamin D aids calcium absorption and muscle metabolism.
+F92 (grapefruit juice): Vitamin C (Ascorbic acid) — Vitamin C attenuated exercise-induced oxidative stress and inflammation.
+F106 (kiwifruit): Epicatechin, Fisetin, Vitamin C — Epicatechin enhanced fatigue resistance; vitamin C attenuated exercise-induced oxidative stress.
+F133 (orange): Vitamin C (Ascorbic acid) — Vitamin C attenuated exercise-induced oxidative stress and inflammation.
+F134 (orange juice): Potassium — Potassium regulation during exercise is critical for muscle contraction and recovery.
+F140 (peach): Epicatechin, Fisetin — Epicatechin enhanced fatigue resistance and mitochondrial biogenesis; fisetin combined with exercise improved strength/mitochondrial markers.
+F144 (persimmon): Epicatechin, Fisetin — Epicatechin enhanced fatigue resistance and mitochondrial biogenesis; fisetin improved strength/mitochondrial markers.
+F150 (plum): Cyanidin, Delphinidin, Peonidin — Cyanidin enhanced exercise performance; delphinidin prevented disuse muscle atrophy.
+F158 (prune): Potassium — Potassium regulation during exercise is critical for muscle contraction and recovery.
+F161 (raisin): Potassium — Potassium regulation during exercise is critical for muscle contraction and recovery.
+F162 (raspberry): Cyanidin, Delphinidin, Peonidin — Cyanidin enhanced exercise performance; delphinidin prevented disuse muscle atrophy.
+F165 (red grape): Quercetin, Myricetin, Cyanidin, Peonidin — Multiple flavonoids enhanced endurance and recovery.
+F188 (strawberry): Epicatechin, Fisetin, Vitamin C — Epicatechin enhanced fatigue resistance; fisetin improved mitochondrial markers; vitamin C attenuated oxidative stress.
+
+Anti-Cancer Potential:
+F4 (apple): Quercetin, Kaempferol, Fisetin, Epicatechin, Flavones — Quercetin induces apoptosis and modulates signaling pathways; kaempferol suppresses angiogenesis and inhibits metastasis; fisetin inhibits tumor growth; epicatechin downregulates MMP-9; flavones associated with reduced cancer risk.
+F21 (blackberry): Epicatechin, Myricetin, Cyanidin, Peonidin — Multiple flavonoids inhibit proliferation and induce apoptosis across multiple cancer types.
+F22 (blackcurrant): Myricetin — Myricetin inhibits cell proliferation and induces apoptosis in colon, breast, prostate, and other cancers.
+F23 (blueberry): Quercetin, Epicatechin, Myricetin, Cyanidin, Delphinidin, Peonidin — Broad flavonoid anti-cancer activity across multiple pathways.
+F41 (cherry): Quercetin, Cyanidin, Peonidin — Quercetin modulates multiple cancer pathways; cyanidin inhibits PI3K/Akt and MAPK pathways.
+F47 (citrus fruit): Hesperetin, Naringenin, Eriodictyol, Vitamin C — Flavanones exhibit anti-proliferative and pro-apoptotic effects; high-dose vitamin C acts as a pro-oxidant in cancer cells.
+F58 (cranberry): Quercetin, Myricetin, Cyanidin, Peonidin — Multiple flavonoids inhibit cancer cell proliferation and induce apoptosis.
+F69 (elderberry): Quercetin, Cyanidin, Delphinidin — Quercetin and anthocyanidins suppress tumor growth and metastasis.
+F81 (fortified fruit juice): Calcium, Vitamin D (Ergocalciferol) — Calcium has a preventive effect on colorectal cancer; vitamin D analogs show anti-cancer activity.
+F85 (fortified orange juice): Calcium, Vitamin D (Ergocalciferol) — Calcium has a preventive effect on colorectal cancer; vitamin D analogs show anti-cancer activity.
+F91 (grapefruit): Hesperetin, Naringenin, Eriodictyol, Vitamin C — Flavanones exhibit anti-proliferative effects; vitamin C acts as a pro-oxidant in cancer cells.
+F106 (kiwifruit): Fisetin, Vitamin C — Fisetin inhibits tumor growth via PI3K/Akt/mTOR; vitamin C acts as a pro-oxidant in cancer cells.
+F112 (lemon): Hesperetin, Naringenin, Eriodictyol, Vitamin C — Flavanones exhibit anti-proliferative and pro-apoptotic effects.
+F114 (lime): Hesperetin, Naringenin, Eriodictyol, Vitamin C — Flavanones exhibit anti-proliferative and pro-apoptotic effects.
+F133 (orange): Epicatechin, Flavones, Hesperetin, Naringenin, Eriodictyol, Vitamin C, Folate — Multiple anti-cancer mechanisms; folate maintains genomic stability.
+F134 (orange juice): Folate — Adequate folate maintains genomic stability; low folate increases cancer risk.
+F140 (peach): Fisetin — Fisetin inhibits tumor growth and metastasis by modulating PI3K/Akt/mTOR and other pathways.
+F144 (persimmon): Fisetin — Fisetin inhibits tumor growth and metastasis by modulating PI3K/Akt/mTOR.
+F150 (plum): Cyanidin, Delphinidin, Peonidin — Cyanidin inhibits PI3K/Akt and MAPK pathways; delphinidin suppresses metastasis; peonidin-3-glucoside inhibits lung cancer metastasis.
+F151 (pomegranate): Delphinidin — Delphinidin suppresses metastasis.
+F162 (raspberry): Cyanidin, Delphinidin, Peonidin — Cyanidin inhibits PI3K/Akt and MAPK pathways; delphinidin suppresses metastasis.
+F165 (red grape): Quercetin, Myricetin, Cyanidin, Peonidin — Broad anti-cancer activity across multiple pathways.
+F188 (strawberry): Fisetin, Vitamin C — Fisetin inhibits tumor growth; vitamin C acts as a pro-oxidant in cancer cells.
+F195 (tangerine): Hesperetin, Naringenin, Eriodictyol, Vitamin C — Flavanones exhibit anti-proliferative and pro-apoptotic effects.

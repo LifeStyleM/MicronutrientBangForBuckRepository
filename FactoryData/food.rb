@@ -8,7 +8,7 @@ This file contains the definition of the Food class and related functionality.
 require_relative 'food_category' # Load the FoodCategory enum module
 
 class Food
-  attr_accessor :name, :price_per_serving, :micronutrients, :category # Expose name, price, micronutrient id list, and category as read/write
+  attr_accessor :id, :name, :price_per_serving, :micronutrients, :category # Expose all fields as read/write
 
   def initialize(name, price_per_serving = nil, category = FoodCategory::OTHER) # category defaults to Other if not provided
     @name = name                           # Store the food's display name

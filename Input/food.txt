@@ -1,0 +1,218 @@
+F1: abalone
+F2: acorn squash
+F3: almond
+F4: apple
+F5: apricot
+F6: asparagus
+F7: avocado
+F8: bagel
+F9: banana
+F10: bean
+F11: beef
+F12: beef liver
+F13: beef tenderloin
+F14: beet green
+F15: black bean
+F16: black pepper
+F17: black rice
+F18: black tea
+F19: black turtle bean
+F20: black-eyed pea
+F21: blackberry
+F22: blackcurrant
+F23: blueberry
+F24: bluefin tuna
+F25: bratwurst
+F26: bread
+F27: broccoli
+F28: brown rice
+F29: Brussels sprout
+F30: butternut squash
+F31: cantaloupe
+F32: capers
+F33: carrot
+F34: cashew
+F35: catfish
+F36: caviar
+F37: celery
+F38: cereal
+F39: chamomile
+F40: cheese
+F41: cherry
+F42: chicken
+F43: chicken liver
+F44: chickpea
+F45: Chinese cabbage
+F46: chocolate
+F47: citrus fruit
+F48: clam
+F49: cocoa
+F50: cod
+F51: cod liver oil
+F52: collard
+F53: corn masa flour
+F54: corn oil
+F55: cornmeal
+F56: cottage cheese
+F57: crab
+F58: cranberry
+F59: cucumber
+F60: dairy
+F61: dark chocolate
+F62: deli meat
+F63: dried apricot
+F64: edamame
+F65: eel
+F66: egg
+F67: egg yolk
+F68: eggplant
+F69: elderberry
+F70: endive
+F71: enriched bread
+F72: fava bean
+F73: fish
+F74: fish liver oil
+F75: fish roe
+F76: flax seed
+F77: fortified almond milk
+F78: fortified bread
+F79: fortified breakfast cereal
+F80: fortified cereal
+F81: fortified fruit juice
+F82: fortified milk
+F83: fortified oat
+F84: fortified oat milk
+F85: fortified orange juice
+F86: fortified soy milk
+F87: fortified tofu
+F88: fortified yogurt
+F89: grain
+F90: grape
+F91: grapefruit
+F92: grapefruit juice
+F93: green bell pepper
+F94: green pea
+F95: green tea
+F96: ground pork
+F97: guava
+F98: ham
+F99: hazelnut
+F100: hemp seed
+F101: herring
+F102: iodized salt
+F103: kale
+F104: kidney
+F105: kidney bean
+F106: kiwifruit
+F107: lamb liver
+F108: lean meat
+F109: lean pork chop
+F110: leek
+F111: legume
+F112: lemon
+F113: lentil
+F114: lime
+F115: liver
+F116: lobster
+F117: long-grain brown rice
+F118: mackerel
+F119: mango
+F120: margarine
+F121: meat
+F122: milk
+F123: mushroom
+F124: mussel
+F125: mustard green
+F126: navy bean
+F127: non-citrus fruit
+F128: nut
+F129: nutritional yeast
+F130: oat
+F131: oatmeal
+F132: onion
+F133: orange
+F134: orange juice
+F135: organ meat
+F136: oyster
+F137: parsley
+F138: pasta
+F139: pea
+F140: peach
+F141: peanut
+F142: pecan
+F143: pepperoni
+F144: persimmon
+F145: pine nut
+F146: pineapple
+F147: pink grapefruit
+F148: pistachio
+F149: pizza
+F150: plum
+F151: pomegranate
+F152: pork
+F153: pork tenderloin
+F154: portabella mushroom
+F155: potato
+F156: poultry
+F157: processed food
+F158: prune
+F159: quinoa
+F160: rainbow trout
+F161: raisin
+F162: raspberry
+F163: red bell pepper
+F164: red cabbage
+F165: red grape
+F166: red wine
+F167: rice
+F168: romaine lettuce
+F169: rye bread
+F170: safflower oil
+F171: salami
+F172: salmon
+F173: salmon with bone
+F174: salt
+F175: sardine
+F176: seafood
+F177: seaweed
+F178: seed
+F179: sesame seed
+F180: shiitake mushroom
+F181: shrimp
+F182: soybean
+F183: soybean oil
+F184: soymilk
+F185: spearmint
+F186: spinach
+F187: starchy vegetable
+F188: strawberry
+F189: sturgeon
+F190: sunflower oil
+F191: sunflower seed
+F192: sweet potato
+F193: Swiss chard
+F194: Swiss cheese
+F195: tangerine
+F196: tea
+F197: tempeh
+F198: tofu
+F199: tomato
+F200: tomato juice
+F201: tortilla
+F202: trout
+F203: tuna
+F204: walnut
+F205: wheat bran
+F206: wheat germ
+F207: wheat germ oil
+F208: wheat-bran cereal
+F209: white bean
+F210: white rice
+F211: white tea
+F212: whole grain
+F213: whole wheat
+F214: whole wheat bagel
+F215: whole wheat bread
+F216: whole wheat macaroni
+F217: yeast
+F218: yogurt

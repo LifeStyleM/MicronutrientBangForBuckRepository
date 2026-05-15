@@ -13,6 +13,7 @@ require_relative '../FactoryData/micronutrient' # Load Micronutrient class
 module FoodAdder
   HISTORY_FILE = File.join(__dir__, 'additions.txt')        # Path to the additions history log
   INPUT_DIR    = File.join(__dir__, '..', 'Input')           # Directory containing vitamin.txt and element.txt
+  FOOD_FILE    = File.join(INPUT_DIR, 'food.txt')            # Path to the food ID registry
 
   # Entry point: called when a shopping list item is not found in the foods registry.
   # Prompts the user to optionally add the food. Mutates foods and micronutrients in place.
@@ -47,7 +48,8 @@ module FoodAdder
         next if mn == :back                          # Somehow propagated back — re-show y/n
 
         append_to_input_file(food_name, category, mn)   # Persist the food to the correct input file
-        update_registry(food_name, category, mn, foods) # Add the food to the in-memory registry
+        food_id = append_to_food_file(food_name)             # Assign next F ID and write to food.txt
+        update_registry(food_name, category, mn, foods, food_id) # Add the food to the in-memory registry
         log_history(food_name, category, mn)            # Record the addition in additions.txt
         puts "  \e[32m✓ '#{food_name} (#{category})' added to #{mn.id}: #{mn.name}\e[0m\n"
         return                                       # Done with this food — return to caller
@@ -123,10 +125,25 @@ module FoodAdder
     File.write(file_path, updated) # Write updated content back to disk
   end
 
+  # Reads food.txt to find the highest F number, increments it, appends the new entry, and returns the new ID.
+  def self.append_to_food_file(food_name)
+    max_id = 0
+    if File.exist?(FOOD_FILE)
+      IO.foreach(FOOD_FILE) do |line|
+        m = line.match(/^F(\d+):/)
+        max_id = [max_id, m[1].to_i].max if m
+      end
+    end
+    new_id = "F#{max_id + 1}"
+    File.open(FOOD_FILE, 'a') { |f| f.write("#{new_id}: #{food_name}\n") }
+    new_id
+  end
+
   # Adds the new food to the in-memory foods hash and links it to the micronutrient.
-  def self.update_registry(food_name, category, mn, foods)
+  def self.update_registry(food_name, category, mn, foods, food_id = nil)
     key  = food_name.downcase          # Normalise key for consistent lookup
     food = Food.new(food_name, nil, category) # Create new Food instance with category
+    food.id = food_id                  # Assign the F ID if provided
     food.add_micronutrient(mn)         # Link food -> micronutrient (stores mn.id)
     mn.add_food(food)                  # Link micronutrient -> food
     foods[key] = food                  # Register food in the shared foods hash

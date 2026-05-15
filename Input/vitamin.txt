@@ -1,5 +1,7 @@
+MN1: Retinol Vitamin A Preformed
 Foods (String): beef liver (Red Meat), lamb liver (Red Meat), chicken liver (Poultry), kidney (Red Meat), eel (Seafood), tuna (Seafood), sturgeon (Seafood), mackerel (Seafood), herring (Seafood), caviar (Seafood), dairy (Dairy), margarine (Other), egg yolk (Other), cod liver oil (Other)
 
+MN2: Beta-Carotene Vitamin A Provitamin
 Foods (String): sweet potato (Vegetable), carrot (Vegetable), spinach (Vegetable), kale (Vegetable), mustard green (Vegetable), collard (Vegetable), beet green (Vegetable), Swiss chard (Vegetable), butternut squash (Vegetable), cantaloupe (Fruit), romaine lettuce (Vegetable), red bell pepper (Vegetable), apricot (Fruit), pink grapefruit (Fruit), mango (Fruit), guava (Fruit), broccoli (Vegetable), pea (Legume), grape (Vegetable)
 
 MN3: Thiamine Vitamin B B1
@@ -40,3 +42,48 @@ Foods (String): trout (Seafood), salmon (Seafood), tuna (Seafood), mackerel (Sea
 
 MN15: Alpha-tocopherol Vitamin E
 Foods (String): wheat germ oil (Oil), sunflower oil (Oil), safflower oil (Oil), corn oil (Oil), soybean oil (Oil), peanut (Nut/Seed), hazelnut (Nut/Seed), almond (Nut/Seed), sunflower seed (Nut/Seed), spinach (Vegetable), broccoli (Vegetable), fortified breakfast cereal (Grain)
+
+MN16: Quercetin Vitamin P Flavanol
+Foods (String): apple (Fruit), onion (Vegetable), kale (Vegetable), broccoli (Vegetable), capers (Herb), red grape (Fruit), cherry (Fruit), blueberry (Fruit), cranberry (Fruit), elderberry (Fruit), green tea (Herb), black tea (Herb), red wine (Other), citrus fruit (Fruit), tomato (Vegetable)
+
+MN17: Kaempferol Vitamin P Flavanol
+Foods (String): kale (Vegetable), spinach (Vegetable), broccoli (Vegetable), endive (Vegetable), leek (Vegetable), onion (Vegetable), tomato (Vegetable), apple (Fruit), grape (Fruit), green tea (Herb), black tea (Herb)
+
+MN18: Myricetin Vitamin P Flavanol
+Foods (String): red grape (Fruit), blueberry (Fruit), cranberry (Fruit), blackberry (Fruit), blackcurrant (Fruit), red wine (Other), onion (Vegetable), spinach (Vegetable), kale (Vegetable), walnut (Nut/Seed), green tea (Herb), black tea (Herb)
+
+MN19: Fisetin Vitamin P Flavanol
+Foods (String): strawberry (Fruit), apple (Fruit), persimmon (Fruit), grape (Fruit), peach (Fruit), kiwifruit (Fruit), cucumber (Vegetable), onion (Vegetable), tomato (Vegetable)
+
+MN20: Flavones Vitamin P Flavone
+Foods (String): parsley (Herb), celery (Herb), chamomile (Herb), orange (Fruit), apple (Fruit), red bell pepper (Vegetable)
+
+MN21: Epicatechin Vitamin P Catechin
+Foods (String): dark chocolate (Other), cocoa (Other), green tea (Herb), black tea (Herb), apple (Fruit), grape (Fruit), red wine (Other), blueberry (Fruit), blackberry (Fruit)
+
+MN22: EGCG Vitamin P Catechin
+Foods (String): green tea (Herb), white tea (Herb)
+
+MN23: Hesperetin Vitamin P Flavanone
+Foods (String): orange (Fruit), lemon (Fruit), lime (Fruit), grapefruit (Fruit), tangerine (Fruit), citrus fruit (Fruit)
+
+MN24: Naringenin Vitamin P Flavanone
+Foods (String): grapefruit (Fruit), orange (Fruit), lemon (Fruit), citrus fruit (Fruit), tomato (Vegetable)
+
+MN25: Eriodictyol Vitamin P Flavanone
+Foods (String): lemon (Fruit), orange (Fruit), citrus fruit (Fruit), spearmint (Herb)
+
+MN26: Genistein Vitamin P Isoflavone
+Foods (String): soybean (Legume), edamame (Legume), tofu (Legume), tempeh (Legume), soymilk (Other), chickpea (Legume), fava bean (Legume)
+
+MN27: Daidzein Vitamin P Isoflavone
+Foods (String): soybean (Legume), edamame (Legume), tofu (Legume), tempeh (Legume), soymilk (Other), chickpea (Legume), flax seed (Nut/Seed)
+
+MN28: Cyanidin Vitamin P Anthocyanidin
+Foods (String): blueberry (Fruit), blackberry (Fruit), cranberry (Fruit), cherry (Fruit), elderberry (Fruit), raspberry (Fruit), red grape (Fruit), plum (Fruit), red cabbage (Vegetable), black rice (Grain)
+
+MN29: Delphinidin Vitamin P Anthocyanidin
+Foods (String): blueberry (Fruit), blackberry (Fruit), elderberry (Fruit), pomegranate (Fruit), red grape (Fruit), eggplant (Vegetable)
+
+MN30: Peonidin Vitamin P Anthocyanidin
+Foods (String): blueberry (Fruit), cranberry (Fruit), red grape (Fruit), cherry (Fruit), plum (Fruit), red wine (Other), black rice (Grain)
