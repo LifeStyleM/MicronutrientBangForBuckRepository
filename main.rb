@@ -6,9 +6,9 @@ This is the main entry point of the program.
 
 =end
 
-require_relative 'factory'
+require_relative 'FactoryData/factory'
 require_relative 'sharedFinder'
-require_relative 'checkList' # Load CheckList module for shopping list coverage report
+require_relative 'ShoppingModule/checkList' # Load CheckList module for shopping list coverage report
 
 testMode = false # Set to true to enable test mode with hardcoded data instead of file input
 

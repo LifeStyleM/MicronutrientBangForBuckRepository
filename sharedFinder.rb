@@ -6,8 +6,8 @@ which micronutrients each shared food belongs to.
 
 =end
 
-require_relative 'factory'
-require_relative 'food_category' # Load FoodCategory to drive display order
+require_relative 'FactoryData/factory'
+require_relative 'FactoryData/food_category' # Load FoodCategory to drive display order
 
 module SharedFinder
   # Accepts the foods hash from Factory.parse_input_files and returns a filtered

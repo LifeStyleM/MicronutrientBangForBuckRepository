@@ -5,7 +5,9 @@ This file will check, using the shopping.txt file, to see if the micronutrients 
 are within that micronutrient within the shopping list. 
 =end
 
-require_relative 'factory' # Load Factory to parse micronutrient/food data from input files
+require_relative '../FactoryData/factory'     # Load Factory to parse micronutrient/food data from input files
+require_relative '../History/foodAdder'       # Load FoodAdder to handle unregistered foods
+require_relative '../History/foodDeleter'     # Load FoodDeleter to delete previously added foods
 
 module CheckList
   SHOPPING_FILE = File.join(__dir__, 'shopping.txt') # Path to the shopping list file
@@ -22,20 +24,28 @@ module CheckList
     'su' => 'Sunday'
   }.freeze
 
-  # Prompts the user to pick a day and returns the canonical day name.
+  # Prompts the user to pick a day and returns the canonical day name, or :delete if 'd' is typed.
   # Loops until valid input is received, handling any capitalisation variant.
+  # Type 'x' at any prompt to quit the program.
   def self.prompt_day
     loop do
-      print "Which day? (M/T/W/R/F/Sa/Su): " # Display the prompt
-      input = $stdin.gets                      # Read raw input from stdin
-      next unless input                        # Guard against EOF / piped input
+      print "Which day? (M/T/W/R/F/Sa/Su  |  d, x): " # Display the prompt
+      input = $stdin.gets                                      # Read raw input from stdin
+      next unless input                                        # Guard against EOF / piped input
 
-      key = input.chomp.strip.downcase         # Normalise: strip whitespace and downcase
-      day = DAY_ALIASES[key]                   # Look up canonical name from the alias map
+      key = input.chomp.strip.downcase                         # Normalise: strip whitespace and downcase
 
-      return day if day                        # Valid input — return the full day name
+      if key == 'x'                                            # User wants to quit
+        puts "Exiting."
+        exit(0)
+      end
 
-      puts "  Invalid input '#{input.chomp}'. Please enter one of: M, T, W, R, F, Sa, Su"
+      return :delete if key == 'd'                             # Signal caller to enter delete mode
+
+      day = DAY_ALIASES[key]                                   # Look up canonical name from the alias map
+      return day if day                                        # Valid input — return the full day name
+
+      puts "  Invalid input '#{input.chomp}'. Please enter one of: M, T, W, R, F, Sa, Su  (or d, x)"
     end
   end
 
@@ -64,10 +74,19 @@ module CheckList
   end
 
   # Checks a single day's food list against the micronutrient registry and prints a coverage report.
+  # Loops back to the day prompt if the user enters delete mode.
   def self.run(micronutrients, foods)
-    day           = prompt_day                        # Ask the user which day to evaluate
-    all_days      = load_shopping_list_by_day         # Parse the full shopping file by day
-    shopping_list = all_days.fetch(day, [])           # Get only the selected day's foods
+    loop do
+      result = prompt_day                               # Ask the user which day (or 'd' for delete)
+
+      if result == :delete                              # User wants to delete an addition
+        FoodDeleter.run(micronutrients, foods)          # Run delete flow; returns when done or backed out
+        next                                            # Return to day prompt after deletion
+      end
+
+      day           = result
+      all_days      = load_shopping_list_by_day         # Parse the full shopping file by day
+      shopping_list = all_days.fetch(day, [])           # Get only the selected day's foods
 
     puts "\n\e[1mEvaluating: #{day}\e[0m\n\n"
 
@@ -77,6 +96,14 @@ module CheckList
     end
 
     puts "Foods (#{shopping_list.size}): #{shopping_list.map(&:capitalize).join(', ')}\n\n"
+
+    # Scan for foods not in the database and offer to add them
+    unknown = shopping_list.reject { |item| foods.key?(item) } # Items with no registry entry
+    unknown.each do |item|
+      FoodAdder.prompt_add(item, micronutrients, foods) # Prompt user to add each unknown food
+    end
+
+    puts "\n" unless unknown.empty? # Blank line before coverage report if any prompts were shown
 
     covered     = [] # Micronutrients that have at least one match on this day
     not_covered = [] # Micronutrients with no match on this day
@@ -121,5 +148,10 @@ module CheckList
     puts
     coverage_pct = (covered.size.to_f / micronutrients.size * 100).round(1) # Calculate coverage percentage
     puts "Coverage: #{coverage_pct}% (#{covered.size} of #{micronutrients.size} micronutrients met)"
-  end
-end
+
+    puts "\n"
+    FoodAdder.print_history # Print the recent additions log at the end of each run
+    break                   # Coverage report complete — exit the loop
+    end  # loop
+  end    # def self.run
+end      # module CheckList

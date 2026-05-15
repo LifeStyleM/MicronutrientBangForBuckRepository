@@ -20,3 +20,4 @@ Thursday:
 Friday:
 Saturday:
 Sunday:
+chicken
