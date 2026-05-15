@@ -26,36 +26,63 @@ we will prepare ahead and make each food be their own class.
 
 ## Category of Micronutrients
 
+
 Fatty Acids (pseudo vitamin - used to be vitamin F)
 
+
 Vitamins (A,B,C,D,E,K,P)
+
     A
+
         Preformed (retinol)
+
         Provitamin (beta-carotene)
+
     B 
+
         B1 Thiamine
+
         B2 Riboflavin
+
         B3 Niacin
+
         B5 Pantothenic acid
+
         B6 Pyridoxine
+
         B7 Biotin
+
         B9 Folic acid/ Folate
+
         B12 Colbalamin (methylcobalamin, cyanocobalamin)
+
     P <=> flavonoids
+
         Flavanoids (Flavanols, flavones, flavnones, isoflavones, antocyandins, flavon-3-ols)
+
         Flavanols (quercetin, kaempferol, myricetin, fisetin)
+
         Flavon-3-ols <=> Catechins (epicatechin, epigallocatechin gallate (EGCG))
+
         Flavonones (hesperitin, maringenin, eridictyal)
+
         Isoflavones (genistein, dridzein)
+
         Antocyandins (cyandin, delphinidin, pronidin)
 
+
 Elements (Fe, Mg, Ca, Zn, Se, K, Na, Cu, P, I, Mn)
+
     Problems: 
+
     (Cu, Zn) => Zn intake reduces Cu intake
+
         * May need to display some warning when Zn or Cu is displayed as a side-option for users who are inquiring about the 
         individual micronutrient's foods.
 
+
 Why we include elements: You can have a deficiency in Zn and such. We want to ensure that our body is healthy and functional enough for other tasks. 
+
 
 Contract: No plural words (e.g., apple instead of apples)
 
