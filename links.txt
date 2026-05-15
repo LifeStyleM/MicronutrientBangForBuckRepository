@@ -1,0 +1,165 @@
+This text file stores the sources for foods of the respective micronutrients.
+
+Apre Retinol
+1. https://curology.com/blog/foods-high-in-retinol-these-may-help-your-skin/
+2. https://curejoy.com/content/foods-high-in-retinol/
+
+Apro Beta-carotene
+1. https://www.myfooddata.com/articles/natural-food-sources-of-beta-carotene.php
+2. https://health.clevelandclinic.org/beta-carotene (subset)
+
+B1 Thiamine
+1. https://www.nutritionadvance.com/foods-high-in-thiamin/
+2. https://www.myfooddata.com/articles/thiamin-b1-foods.php
+
+B2 Riboflavin
+1. https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/
+2. https://www.healthline.com/health/vitamin-watch-what-does-b2-do
+
+B3 Niacin
+1. https://ods.od.nih.gov/factsheets/Niacin-Consumer/
+2. https://www.mayoclinic.org/drugs-supplements-niacin/art-20364984
+
+B5 Pantothenic acid
+1. https://ods.od.nih.gov/factsheets/PantothenicAcid-Consumer/
+2. https://www.healthline.com/health/vitamin-watch-what-does-b5-do
+
+B6 Pyridoxine
+1. https://ods.od.nih.gov/factsheets/VitaminB6-Consumer/
+2. https://www.healthline.com/health/vitamin-b6
+
+B7 Biotin
+1. https://ods.od.nih.gov/factsheets/Biotin-Consumer/
+2. https://www.healthline.com/health/biotin-side-effects
+
+B9 Folic acid/ Folate
+1. https://ods.od.nih.gov/factsheets/Folate-Consumer/
+2. https://www.healthline.com/nutrition/folic-acid-vs-folate
+
+B12 Colbalamin (methylcobalamin)
+1. https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/
+2. https://www.healthline.com/nutrition/vitamin-b12-benefits
+
+B12 Colbalamin (cyanocobalamin)
+1. https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/
+2. https://www.healthline.com/nutrition/cyanocobalamin
+
+C Ascorbic acid
+1. https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/
+2. https://www.healthline.com/health/vitamin-c
+
+D Calciferol (Ergocalciferol)  
+1. https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/
+2. https://www.healthline.com/nutrition/vitamin-d2-vs-d3
+
+D Calciferol (Cholecalciferol)  
+1. https://ods.od.nih.gov/factsheets/VitaminD-Consumer/
+2. https://www.healthline.com/nutrition/vitamin-d3-benefits
+
+E alpha-tocopherol (tocopherols/tocotrienols)
+1. https://ods.od.nih.gov/factsheets/VitaminE-Consumer/
+2. https://www.healthline.com/nutrition/vitamin-e
+
+P Flavanols Quercetin
+1. https://examine.com/supplements/quercetin/
+2. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/quercetin
+
+P Flavanols Kaempferol
+1. https://examine.com/supplements/kaempferol/
+2. https://pubchem.ncbi.nlm.nih.gov/compound/Kaempferol
+
+P Flavanols Myricetin
+1. https://examine.com/supplements/myricetin/
+2. https://pubchem.ncbi.nlm.nih.gov/compound/Myricetin
+
+P Flavanols Fisetin
+1. https://pubchem.ncbi.nlm.nih.gov/compound/Fisetin
+2. https://www.healthline.com/nutrition/vitamin-p
+
+P Flavones
+1. https://examine.com/articles/what-are-flavones-catechins-anthocyanins-and-those-healthy-plant-compounds/
+2. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/chamomile-german
+
+P Catechins Epicatechin
+1. https://examine.com/supplements/green-tea-extract/
+2. https://pubchem.ncbi.nlm.nih.gov/compound/Epicatechin
+
+P Catechins EGCG
+1. https://examine.com/other/epigallocatechin-gallate/
+2. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/green-tea
+
+P Flavonones Hesperitin
+1. https://pubchem.ncbi.nlm.nih.gov/compound/Hesperitin
+2. https://www.healthline.com/nutrition/vitamin-p
+
+P Flavonones Naringenin
+1. https://examine.com/other/naringenin/
+2. https://pubchem.ncbi.nlm.nih.gov/compound/Naringenin
+
+P Flavonones Eriodictyol
+1. https://pubchem.ncbi.nlm.nih.gov/compound/Eriodictyol
+2. https://www.healthline.com/health/lipo-flavonoid
+
+P Isoflavones Genistein
+1. https://pubchem.ncbi.nlm.nih.gov/compound/Genistein
+2. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/gcp
+
+P Isoflavones Daidzein
+1. https://pubchem.ncbi.nlm.nih.gov/compound/Daidzein
+2. https://examine.com/supplements/soy-isoflavones/
+
+P Antocyandins Cyanidin
+1. https://examine.com/supplements/cyanidin/
+2. https://pubchem.ncbi.nlm.nih.gov/compound/Cyanidin
+
+P Antocyandins Delphinidin
+1. https://pubchem.ncbi.nlm.nih.gov/compound/Delphinidin
+2. https://examine.com/research-feed/study/9ko239/
+
+P Antocyandins Peonidin
+1. https://pubchem.ncbi.nlm.nih.gov/compound/Peonidin
+2. https://examine.com/research-feed/study/9ko239/
+
+Fe Iron
+1. https://ods.od.nih.gov/factsheets/Iron-Consumer/
+2. https://www.healthline.com/health/iron-nutrient
+
+Mg Magnesium
+1. https://ods.od.nih.gov/factsheets/Magnesium-Consumer/
+2. https://www.healthline.com/nutrition/magnesium-benefits
+
+Ca Calcium
+1. https://ods.od.nih.gov/factsheets/Calcium-Consumer/
+2. https://www.healthline.com/nutrition/calcium
+
+Zn Zinc
+1. https://ods.od.nih.gov/factsheets/Zinc-Consumer/
+2. https://www.healthline.com/nutrition/zinc-benefits
+
+Se Selenium
+1. https://ods.od.nih.gov/factsheets/Selenium-Consumer/
+2. https://www.healthline.com/nutrition/selenium-benefits
+
+K Potassium
+1. https://ods.od.nih.gov/factsheets/Potassium-Consumer/
+2. https://www.healthline.com/nutrition/potassium-benefits
+
+Na Sodium
+1. https://ods.od.nih.gov/factsheets/Sodium-Consumer/
+2. https://www.healthline.com/nutrition/sodium
+
+Cu Copper
+1. https://ods.od.nih.gov/factsheets/Copper-Consumer/
+2. https://www.healthline.com/nutrition/copper-benefits
+
+P Phosphorus
+1. https://ods.od.nih.gov/factsheets/Phosphorus-Consumer/
+2. https://www.healthline.com/nutrition/phosphorus-benefits
+
+I Iodine
+1. https://ods.od.nih.gov/factsheets/Iodine-Consumer/
+2. https://www.healthline.com/nutrition/iodine-benefits
+
+Mn Manganese
+1. https://ods.od.nih.gov/factsheets/Manganese-Consumer/
+2. https://www.healthline.com/nutrition/manganese-benefits

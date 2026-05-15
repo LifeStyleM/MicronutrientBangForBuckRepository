@@ -58,11 +58,13 @@ Vitamins (A,B,C,D,E,K,P)
 
     P <=> flavonoids
 
-        Flavanoids (Flavanols, flavones, flavnones, isoflavones, antocyandins, flavon-3-ols)
+        Flavanoids (Flavanols, flavones, flavonones, isoflavones, antocyandins, flavonols)
 
-        Flavanols (quercetin, kaempferol, myricetin, fisetin)
+        Flav"a"nols (quercetin, kaempferol, myricetin, fisetin)
 
-        Flavon-3-ols <=> Catechins (epicatechin, epigallocatechin gallate (EGCG))
+        Flav"o"nols <=> Catechins (epicatechin, epigallocatechin gallate (EGCG))
+
+        Flavones
 
         Flavonones (hesperitin, maringenin, eridictyal)
 
