@@ -29,6 +29,8 @@ each food will be their own class.
 
 Furthermore, refer to the food_category.rb within FactoryData for details about the general category of foods.
 
+*This was made public since I could not open this repository in Obsidian when it was private.*
+
 
 ## Category of Micronutrients
 
