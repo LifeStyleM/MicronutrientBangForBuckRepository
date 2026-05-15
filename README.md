@@ -6,8 +6,6 @@
 - [Category of Micronutrients](#category-of-micronutrients)
 - [Formatting of text file](#format-of-text-file)
 
-––––––––––––––––––––––––
-
 ## Intentions
 
 Intention: to make a program able to find the common foods between vitamins and elements, regarding micronutrients. Additionally, to sort out which ones are more versatile across seasons, to form a platform/baseline of what foods able to relied on for any season.
@@ -25,7 +23,6 @@ Preparing for next steps:
 - Since we are going to have each food have their own traits (season/availability, effects, monetary cost),
 we will prepare ahead and make each food be their own class. 
 
-––––––––––––––––––––––––
 
 ## Category of Micronutrients
 
@@ -62,7 +59,6 @@ Why we include elements: You can have a deficiency in Zn and such. We want to en
 
 Contract: No plural words (e.g., apple instead of apples)
 
-––––––––––––––––––––––––
 
 ## Format of text file
 MN#: (Micronutrient name) (Class) 
