@@ -1,0 +1,32 @@
+ME1: Iron Mineral Trace
+Foods (String): lean meat (Red Meat), seafood (Seafood), poultry (Poultry), fortified breakfast cereal (Grain), fortified bread (Grain), white bean (Legume), lentil (Legume), spinach (Vegetable), kidney bean (Legume), pea (Legume), nut (Nut/Seed), raisin (Fruit)
+
+ME2: Magnesium Mineral
+Foods (String): legume (Legume), nut (Nut/Seed), seed (Nut/Seed), whole grain (Grain), spinach (Vegetable), fortified breakfast cereal (Grain), milk (Dairy), yogurt (Dairy)
+
+ME3: Calcium Mineral
+Foods (String): milk (Dairy), yogurt (Dairy), cheese (Dairy), sardine (Seafood), salmon with bone (Seafood), kale (Vegetable), broccoli (Vegetable), Chinese cabbage (Vegetable), fortified fruit juice (Fruit), fortified soy milk (Dairy), fortified almond milk (Dairy), fortified tofu (Legume), fortified breakfast cereal (Grain)
+
+ME4: Zinc Mineral Trace
+Foods (String): oyster (Seafood), meat (Red Meat), fish (Seafood), poultry (Poultry), crab (Seafood), lobster (Seafood), fortified breakfast cereal (Grain), bean (Legume), nut (Nut/Seed), whole grain (Grain), egg (Other), dairy (Dairy)
+
+ME5: Selenium Mineral Trace
+Foods (String): fish (Seafood), seafood (Seafood), beef (Red Meat), pork (Red Meat), poultry (Poultry), egg (Other), dairy (Dairy), bread (Grain), cereal (Grain), grain (Grain), bean (Legume), lentil (Legume), nut (Nut/Seed)
+
+ME6: Potassium Mineral
+Foods (String): dried apricot (Fruit), prune (Fruit), raisin (Fruit), orange juice (Fruit), banana (Fruit), acorn squash (Vegetable), potato (Vegetable), spinach (Vegetable), tomato (Vegetable), broccoli (Vegetable), lentil (Legume), kidney bean (Legume), soybean (Legume), nut (Nut/Seed), milk (Dairy), yogurt (Dairy), meat (Red Meat), poultry (Poultry), fish (Seafood)
+
+ME7: Sodium Mineral
+Foods (String): salt (Other), bread (Grain), deli meat (Red Meat), canned soup (Other), cheese (Dairy), processed food (Other), pizza (Other)
+
+ME8: Copper Mineral Trace
+Foods (String): beef liver (Red Meat), oyster (Seafood), cashew (Nut/Seed), sesame seed (Nut/Seed), sunflower seed (Nut/Seed), chocolate (Other), wheat-bran cereal (Grain), whole grain (Grain), potato (Vegetable), mushroom (Vegetable), avocado (Fruit), chickpea (Legume), tofu (Legume)
+
+ME9: Phosphorus Mineral
+Foods (String): yogurt (Dairy), milk (Dairy), cheese (Dairy), bread (Grain), tortilla (Grain), brown rice (Grain), oatmeal (Grain), meat (Red Meat), poultry (Poultry), fish (Seafood), egg (Other), cashew (Nut/Seed), sesame seed (Nut/Seed), lentil (Legume), kidney bean (Legume), pea (Legume), potato (Vegetable), asparagus (Vegetable)
+
+ME10: Iodine Mineral Trace
+Foods (String): cod (Seafood), tuna (Seafood), seaweed (Vegetable), shrimp (Seafood), milk (Dairy), yogurt (Dairy), cheese (Dairy), egg (Other), iodized salt (Other)
+
+ME11: Manganese Mineral Trace
+Foods (String): brown rice (Grain), oatmeal (Grain), whole wheat bread (Grain), clam (Seafood), oyster (Seafood), mussel (Seafood), hazelnut (Nut/Seed), pecan (Nut/Seed), soybean (Legume), lentil (Legume), spinach (Vegetable), kale (Vegetable), pineapple (Fruit), blueberry (Fruit), tea (Herb), black pepper (Herb)

@@ -1,0 +1,44 @@
+MN1: Retinol Vitamin A Preformed
+Foods (String): beef liver (Red Meat), lamb liver (Red Meat), chicken liver (Poultry), kidney (Red Meat), eel (Seafood), tuna (Seafood), sturgeon (Seafood), mackerel (Seafood), herring (Seafood), caviar (Seafood), dairy (Dairy), margarine (Other), egg yolk (Other), cod liver oil (Other)
+
+MN2: Beta-Carotene Vitamin A Provitamin
+Foods (String): sweet potato (Vegetable), carrot (Vegetable), spinach (Vegetable), kale (Vegetable), mustard green (Vegetable), collard (Vegetable), beet green (Vegetable), Swiss chard (Vegetable), butternut squash (Vegetable), cantaloupe (Fruit), romaine lettuce (Vegetable), red bell pepper (Vegetable), apricot (Fruit), pink grapefruit (Fruit), mango (Fruit), guava (Fruit), broccoli (Vegetable), pea (Legume)
+
+MN3: Thiamine Vitamin B B1
+Foods (String): wheat germ (Grain), flax seed (Nut/Seed), sunflower seed (Nut/Seed), hemp seed (Nut/Seed), pine nut (Nut/Seed), pistachio (Nut/Seed), ground pork (Red Meat), ham (Red Meat), lean pork chop (Red Meat), pork tenderloin (Red Meat), salami (Red Meat), wheat bran (Grain), bratwurst (Red Meat), rye bread (Grain), whole wheat bagel (Grain), whole wheat bread (Grain), rainbow trout (Seafood), salmon (Seafood), catfish (Seafood), mussel (Seafood), clam (Seafood), abalone (Seafood), oyster (Seafood), chicken liver (Poultry), fish roe (Seafood), bluefin tuna (Seafood), pepperoni (Red Meat), green pea (Legume), black bean (Legume), navy bean (Legume), black turtle bean (Legume), black-eyed pea (Legume), edamame (Legume), soymilk (Other), tempeh (Legume), tofu (Legume), long-grain brown rice (Grain), cornmeal (Grain), quinoa (Grain), oatmeal (Grain), lentil (Legume), acorn squash (Vegetable), asparagus (Vegetable)
+
+MN4: Riboflavin Vitamin B B2
+Foods (String): beef liver (Red Meat), fortified breakfast cereal (Grain), fortified oat (Grain), yogurt (Dairy), milk (Dairy), cottage cheese (Dairy), beef tenderloin (Red Meat), clam (Seafood), almond (Nut/Seed), Swiss cheese (Dairy), portabella mushroom (Vegetable), chicken (Poultry), egg (Other), quinoa (Grain), bagel (Grain), salmon (Seafood), spinach (Vegetable), apple (Fruit), kidney bean (Legume), whole wheat macaroni (Grain), whole wheat bread (Grain), cod (Seafood), sunflower seed (Nut/Seed), tomato (Vegetable), white rice (Grain), brown rice (Grain)
+
+MN5: Niacin Vitamin B B3
+Foods (String): poultry (Poultry), beef (Red Meat), pork (Red Meat), fish (Seafood), nut (Nut/Seed), legume (Legume), grain (Grain), fortified bread (Grain), fortified cereal (Grain), yeast (Other), milk (Dairy)
+
+MN6: Pantothenic Acid Vitamin B B5
+Foods (String): beef (Red Meat), poultry (Poultry), seafood (Seafood), organ meat (Red Meat), egg (Other), milk (Dairy), shiitake mushroom (Vegetable), avocado (Fruit), potato (Vegetable), broccoli (Vegetable), whole wheat (Grain), brown rice (Grain), oat (Grain), peanut (Nut/Seed), sunflower seed (Nut/Seed), chickpea (Legume), fortified breakfast cereal (Grain)
+
+MN7: Pyridoxine Vitamin B B6
+Foods (String): poultry (Poultry), fish (Seafood), organ meat (Red Meat), potato (Vegetable), starchy vegetable (Vegetable), non-citrus fruit (Fruit)
+
+MN8: Biotin Vitamin B B7
+Foods (String): meat (Red Meat), fish (Seafood), egg (Other), liver (Red Meat), seed (Nut/Seed), nut (Nut/Seed), sweet potato (Vegetable), spinach (Vegetable), broccoli (Vegetable)
+
+MN9: Folate Vitamin B B9
+Foods (String): beef liver (Red Meat), asparagus (Vegetable), Brussels sprout (Vegetable), spinach (Vegetable), mustard green (Vegetable), orange (Fruit), orange juice (Fruit), peanut (Nut/Seed), black-eyed pea (Legume), kidney bean (Legume), enriched bread (Grain), cornmeal (Grain), pasta (Grain), rice (Grain), fortified breakfast cereal (Grain), corn masa flour (Grain)
+
+MN10: Methylcobalamin Vitamin B B12
+Foods (String): fish (Seafood), meat (Red Meat), poultry (Poultry), egg (Other), milk (Dairy), dairy (Dairy), clam (Seafood), oyster (Seafood), beef liver (Red Meat), fortified breakfast cereal (Grain), nutritional yeast (Other)
+
+MN11: Cyanocobalamin Vitamin B B12
+Foods (String): fish (Seafood), meat (Red Meat), poultry (Poultry), egg (Other), milk (Dairy), dairy (Dairy), clam (Seafood), oyster (Seafood), beef liver (Red Meat), fortified breakfast cereal (Grain), nutritional yeast (Other)
+
+MN12: Ascorbic Acid Vitamin C
+Foods (String): citrus fruit (Fruit), red bell pepper (Vegetable), green bell pepper (Vegetable), kiwifruit (Fruit), broccoli (Vegetable), strawberry (Fruit), Brussels sprout (Vegetable), orange juice (Fruit), grapefruit juice (Fruit), tomato juice (Vegetable), fortified breakfast cereal (Grain)
+
+MN13: Ergocalciferol Vitamin D Ergocalciferol
+Foods (String): mushroom (Vegetable), fortified milk (Dairy), fortified soy milk (Dairy), fortified almond milk (Dairy), fortified oat milk (Grain), fortified breakfast cereal (Grain), fortified orange juice (Fruit), fortified yogurt (Dairy)
+
+MN14: Cholecalciferol Vitamin D Cholecalciferol
+Foods (String): trout (Seafood), salmon (Seafood), tuna (Seafood), mackerel (Seafood), fish liver oil (Other), beef liver (Red Meat), egg yolk (Other), fortified milk (Dairy), fortified breakfast cereal (Grain)
+
+MN15: Alpha-tocopherol Vitamin E
+Foods (String): wheat germ oil (Oil), sunflower oil (Oil), safflower oil (Oil), corn oil (Oil), soybean oil (Oil), peanut (Nut/Seed), hazelnut (Nut/Seed), almond (Nut/Seed), sunflower seed (Nut/Seed), spinach (Vegetable), broccoli (Vegetable), fortified breakfast cereal (Grain)
