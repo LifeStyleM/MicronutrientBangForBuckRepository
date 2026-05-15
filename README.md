@@ -1,5 +1,15 @@
 # MicronutrientBangForBuckRepository
 
+## Overview
+
+- [Intentions](#intentions)
+- [Category of Micronutrients](#category-of-micronutrients)
+- [Formatting of text file](#format-of-text-file)
+
+––––––––––––––––––––––––
+
+## Intentions
+
 Intention: to make a program able to find the common foods between vitamins and elements, regarding micronutrients. Additionally, to sort out which ones are more versatile across seasons, to form a platform/baseline of what foods able to relied on for any season.
 
 Current Constraint: There is no criteria to identify which food is more intense/plenty in one micronutrient compared to another.
@@ -17,7 +27,8 @@ we will prepare ahead and make each food be their own class.
 
 ––––––––––––––––––––––––
 
-Category of Micronutrients:
+## Category of Micronutrients
+
 Fatty Acids (pseudo vitamin - used to be vitamin F)
 
 Vitamins (A,B,C,D,E,K,P)
@@ -53,7 +64,7 @@ Contract: No plural words (e.g., apple instead of apples)
 
 ––––––––––––––––––––––––
 
-Format of text file:
+## Format of text file
 MN#: (Micronutrient name) (Class) 
 Foods (String): (foods)
 - Note: # is the ID of the individual micronutrient. We will have an option to list out all of the micronutrients and mark their
