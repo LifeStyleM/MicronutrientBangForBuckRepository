@@ -8,6 +8,7 @@
 - [Formatting of text file](#format-of-text-file)
 - [Guide](#guide)
 - [Real-world Constraints](#real-world-constraints)
+- [Metrics](#metrics)
 
 ## Intentions
 
@@ -25,6 +26,12 @@ DONE:
 
 Next Iteration:
 1. Making a database for populating the values within each food for each metric.
+
+## Metrics
+Monetary cost = money to buy that. Need to specify the unit
+Micronutrient information = how much micronutrient some unit of food gives
+Effect grouping = for what their effect is. 
+    Note: Effect -> (Exercise vs. Energy): Energy is for stimulant for consciousness or for dopamine/serotonin. Any foods that has Pyridoxine is included within Energy. Exercise is things related to vitamin P and such. 
 
 ## Notes
 Since we are going to have each food have their own traits (effects, monetary cost),
@@ -115,7 +122,11 @@ The next iteration will sort based on the metrics of each individual food, based
 
     => We have set up the metrics and sorting method but have not made any attempts into assigning values to the food. 
     
+To run it on the web, do these:
 
+1. Kill server (on terminal): lsof -ti :4567 | xargs kill -9, or just do ctrl-c
+
+2. Start server (on terminal): .../MIcronutrientBangForBuck/MicronutrientBangForBuckRepository then bundle exec ruby web/app.rb
 
 ## Real-world Constraints
 

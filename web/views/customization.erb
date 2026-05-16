@@ -1,0 +1,22 @@
+<a href="/" class="back-link">← Home</a>
+
+<div class="card">
+  <h2>Sort Foods by Micronutrient</h2>
+  <p class="subtitle">Step 1 of 2 — Choose a micronutrient to sort its foods.</p>
+
+  <form action="/customization/options" method="get">
+    <div class="form-group">
+      <label class="group-label">Micronutrient</label>
+      <div class="radio-list">
+        <% @micronutrients.each do |mn| %>
+          <label>
+            <input type="radio" name="mn_id" value="<%= h(mn.id) %>" required>
+            <strong><%= h(mn.id) %></strong> &mdash; <%= h(mn.name) %>
+            <span class="dim">(<%= h(mn.category) %>)</span>
+          </label>
+        <% end %>
+      </div>
+    </div>
+    <button type="submit" class="btn">Next &rarr;</button>
+  </form>
+</div>

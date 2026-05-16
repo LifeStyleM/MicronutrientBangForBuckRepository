@@ -1,0 +1,32 @@
+<a href="/effects" class="back-link">← Back to effect categories</a>
+
+<div class="card">
+  <h2><%= h(@category) %></h2>
+  <p class="subtitle"><%= @entries.size %> food(s) with evidence for this effect</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th class="num">#</th>
+          <th>Food</th>
+          <th>Key Micronutrients</th>
+          <th>Mechanism</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @entries.each_with_index do |entry, i| %>
+          <tr>
+            <td class="num"><%= i + 1 %></td>
+            <td>
+              <%= h(tc(entry[:name])) %>
+              <span class="dim">(<%= h(entry[:id]) %>)</span>
+            </td>
+            <td><%= h(entry[:micronutrients]) %></td>
+            <td><%= h(entry[:mechanism]) %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

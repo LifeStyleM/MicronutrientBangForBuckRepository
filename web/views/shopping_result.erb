@@ -1,0 +1,62 @@
+<a href="/shopping" class="back-link">← Back to day selection</a>
+
+<div class="card">
+  <h2><%= h(@day) %></h2>
+
+  <% if @shopping_list.empty? %>
+    <p class="empty-state">No foods listed for <%= h(@day) %>.</p>
+  <% else %>
+    <p class="subtitle">
+      <%= @shopping_list.size %> food(s): <%= h(@shopping_list.map(&:capitalize).join(', ')) %>
+    </p>
+
+    <% unless @unknown.empty? %>
+      <div class="warning-box">
+        <strong>Not in database:</strong> <%= h(@unknown.map(&:capitalize).join(', ')) %>
+      </div>
+    <% end %>
+
+    <div class="coverage-bar-wrap">
+      <div class="coverage-label">
+        <%= @coverage_pct %>% coverage &mdash; <%= @covered.size %> of <%= @total_mn %> micronutrients met
+      </div>
+      <div class="coverage-bar">
+        <div class="coverage-fill" style="width:<%= @coverage_pct %>%"></div>
+      </div>
+    </div>
+
+    <div class="section-head covered-head">
+      <span>&#10003; Covered</span>
+      <span class="badge green-badge"><%= @covered.size %></span>
+    </div>
+
+    <% @covered.each do |entry| %>
+      <div class="mn-row">
+        <span class="mn-id"><%= h(entry[:mn].id) %></span>
+        <span class="mn-name"><%= h(entry[:mn].name) %></span>
+        <span class="dim">(<%= h(entry[:mn].category) %>)</span>
+        <div class="mn-foods">
+          <% entry[:matches].each_with_index do |food, i| %>
+            <span class="food-match"><%= h(food.name.capitalize) %></span><%= i < entry[:matches].size - 1 ? ', ' : '' %>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+
+    <div class="section-head missing-head" style="margin-top:1.5rem">
+      <span>&#10007; Not Covered</span>
+      <span class="badge red-badge"><%= @not_covered.size %></span>
+    </div>
+
+    <% @not_covered.each do |mn| %>
+      <div class="mn-row">
+        <span class="mn-id"><%= h(mn.id) %></span>
+        <span class="mn-name"><%= h(mn.name) %></span>
+        <span class="dim">(<%= h(mn.category) %>)</span>
+        <div class="mn-foods">
+          Suggestions: <%= h(mn.foods.first(3).map { |f| f.name.capitalize }.join(', ')) %>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+</div>

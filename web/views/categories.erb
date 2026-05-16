@@ -1,0 +1,12 @@
+<a href="/" class="back-link">← Home</a>
+
+<div class="card">
+  <h2>Food Categories</h2>
+  <p class="subtitle">Select a category to browse its foods and their micronutrients.</p>
+
+  <div class="pill-grid">
+    <% @categories.each do |cat| %>
+      <a href="/categories/result?category=<%= CGI.escape(cat) %>" class="btn btn-outline"><%= h(cat) %></a>
+    <% end %>
+  </div>
+</div>

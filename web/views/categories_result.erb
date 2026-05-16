@@ -1,0 +1,35 @@
+<a href="/categories" class="back-link">← Back to categories</a>
+
+<div class="card">
+  <h2><%= h(@category) %></h2>
+  <p class="subtitle"><%= @foods.size %> food(s) in this category</p>
+
+  <% if @foods.empty? %>
+    <p class="empty-state">No foods found in this category.</p>
+  <% else %>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th>Food</th>
+            <th>Micronutrients</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @foods.each_with_index do |food, i| %>
+            <tr>
+              <td class="num"><%= i + 1 %></td>
+              <td><%= h(tc(food.name)) %></td>
+              <td>
+                <% food.micronutrients.each do |mn_id| %>
+                  <span class="mn-tag" title="<%= h(@micronutrients[mn_id]&.name.to_s) %>"><%= h(mn_id) %></span>
+                <% end %>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  <% end %>
+</div>

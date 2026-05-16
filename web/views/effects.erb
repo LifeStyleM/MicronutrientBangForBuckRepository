@@ -1,0 +1,12 @@
+<a href="/metric_overview" class="back-link">← Back to metrics</a>
+
+<div class="card">
+  <h2>Effects</h2>
+  <p class="subtitle">Select an effect category to see which foods support it and the mechanism behind it.</p>
+
+  <div class="pill-grid">
+    <% @effects.each_key do |cat| %>
+      <a href="/effects/result?category=<%= CGI.escape(cat) %>" class="btn btn-outline"><%= h(cat) %></a>
+    <% end %>
+  </div>
+</div>

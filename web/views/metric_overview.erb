@@ -1,0 +1,43 @@
+<a href="/" class="back-link">← Home</a>
+
+<div class="card">
+  <h2>Metric Overview</h2>
+  <p class="subtitle">Choose a metric and sort order to see every food in the database ranked by it.</p>
+
+  <form action="/metric_overview/result" method="get">
+    <div class="form-group">
+      <label class="group-label">Metric</label>
+      <div class="radio-list">
+        <% @metrics.each do |key, name| %>
+          <label>
+            <input type="radio" name="metric" value="<%= h(key) %>" required>
+            <%= h(name) %>
+          </label>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="form-group" id="order-group">
+      <label class="group-label">Order</label>
+      <div class="radio-row">
+        <label><input type="radio" name="order" value="asc" checked> Ascending</label>
+        <label><input type="radio" name="order" value="desc"> Descending</label>
+      </div>
+    </div>
+
+    <button type="submit" class="btn">View All Foods &rarr;</button>
+  </form>
+</div>
+
+<script>
+  const radios     = document.querySelectorAll('input[name="metric"]');
+  const orderGroup = document.getElementById('order-group');
+
+  function updateOrder() {
+    const isEffects = document.querySelector('input[name="metric"]:checked')?.value === '4';
+    orderGroup.style.opacity = isEffects ? '0.4' : '1';
+  }
+
+  radios.forEach(r => r.addEventListener('change', updateOrder));
+  updateOrder();
+</script>

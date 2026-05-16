@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Micronutrient Bang for Buck</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="site-title">Micronutrient Bang for Buck</a>
+    <nav>
+      <a href="/customization" class="<%= nav_active('/customization') %>">Sort</a>
+      <a href="/categories"    class="<%= nav_active('/categories') %>">Categories</a>
+      <a href="/metric_overview" class="<%= nav_active('/metric_overview', '/effects') %>">Metrics</a>
+      <a href="/shopping"      class="<%= nav_active('/shopping') %>">Shopping</a>
+    </nav>
+  </header>
+  <main>
+    <%= yield %>
+  </main>
+</body>
+</html>

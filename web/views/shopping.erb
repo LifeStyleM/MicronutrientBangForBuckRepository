@@ -1,0 +1,27 @@
+<a href="/" class="back-link">← Home</a>
+
+<div class="card">
+  <h2>Shopping Check</h2>
+  <p class="subtitle">Select a day to see your micronutrient coverage for that day's shopping list.</p>
+
+  <div class="day-pills">
+    <% @day_order.each do |day| %>
+      <% has_data = @all_days.key?(day) && !@all_days[day].empty? %>
+      <% if has_data %>
+        <a href="/shopping/result?day=<%= day %>" class="day-pill has-data">
+          <%= day %>
+          <span class="day-count"><%= @all_days[day].size %></span>
+        </a>
+      <% else %>
+        <span class="day-pill empty"><%= day %></span>
+      <% end %>
+    <% end %>
+  </div>
+
+  <% if @all_days.empty? %>
+    <p style="margin-top:1.25rem;color:var(--text-muted);font-size:.9rem">
+      No shopping data found. Add foods under day headers (e.g. <code>Monday:</code>) in
+      <code>ShoppingModule/shopping.txt</code>.
+    </p>
+  <% end %>
+</div>

@@ -1,0 +1,41 @@
+<a href="/metric_overview" class="back-link">← Back to metric selection</a>
+
+<div class="card">
+  <h2>All Foods &mdash; <%= h(@metrics[@metric]) %></h2>
+  <p class="subtitle">
+    <%= @order == :asc ? 'Ascending' : 'Descending' %>
+    &middot; <%= @sorted_foods.size %> food(s)
+  </p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th class="num">#</th>
+          <th>Food</th>
+          <th>Category</th>
+          <th><%= h(@metrics[@metric]) %></th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @sorted_foods.each_with_index do |food, i| %>
+          <tr>
+            <td class="num"><%= i + 1 %></td>
+            <td><%= h(tc(food.name)) %></td>
+            <td><span class="badge"><%= h(food.category) %></span></td>
+            <% if @metric == '3' %>
+              <td>
+                <% food.micronutrients.each do |mn_id| %>
+                  <span class="mn-tag"><%= h(mn_id) %></span>
+                <% end %>
+                <span class="dim">(<%= food.micronutrients.size %>)</span>
+              </td>
+            <% else %>
+              <td><%= h(metric_value(food, @metric)) %></td>
+            <% end %>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

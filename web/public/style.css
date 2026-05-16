@@ -1,0 +1,379 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green:      #2e7d32;
+  --green-lt:   #e8f5e9;
+  --green-mid:  #4caf50;
+  --green-dark: #1b5e20;
+  --text:       #212121;
+  --text-muted: #757575;
+  --border:     #e0e0e0;
+  --bg:         #f5f5f5;
+  --card-bg:    #ffffff;
+  --radius:     8px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* ── Header ──────────────────────────────────────────────────── */
+header {
+  background: var(--green);
+  color: white;
+  padding: 0 2rem;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0,0,0,.25);
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  letter-spacing: .01em;
+}
+
+nav { display: flex; gap: 1.75rem; }
+
+nav a {
+  color: rgba(255,255,255,.8);
+  text-decoration: none;
+  font-size: .875rem;
+  font-weight: 500;
+  padding: .2rem 0;
+  border-bottom: 2px solid transparent;
+  transition: color .15s, border-color .15s;
+}
+
+nav a:hover,
+nav a.active {
+  color: white;
+  border-bottom-color: rgba(255,255,255,.65);
+}
+
+/* ── Main container ──────────────────────────────────────────── */
+main {
+  max-width: 1080px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+/* ── Cards ───────────────────────────────────────────────────── */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.75rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.card h1 { font-size: 1.5rem; margin-bottom: .3rem; }
+.card h2 { font-size: 1.2rem; color: var(--green); margin-bottom: .5rem; }
+.card p.subtitle { color: var(--text-muted); font-size: .875rem; margin-bottom: 1.25rem; }
+.dim { color: var(--text-muted); font-size: .82rem; }
+.hint { color: var(--text-muted); font-size: .82rem; margin-bottom: .5rem; }
+
+/* ── Home grid ───────────────────────────────────────────────── */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color .15s, box-shadow .15s, transform .1s;
+}
+
+.home-card:hover {
+  border-color: var(--green-mid);
+  box-shadow: 0 4px 14px rgba(46,125,50,.15);
+  transform: translateY(-2px);
+}
+
+.home-card .icon {
+  font-size: 1.75rem;
+  margin-bottom: .75rem;
+  color: var(--green);
+  font-style: normal;
+}
+
+.home-card h3 { font-size: .95rem; margin-bottom: .35rem; color: var(--green); }
+.home-card p  { font-size: .83rem; color: var(--text-muted); line-height: 1.45; }
+
+/* ── Forms ───────────────────────────────────────────────────── */
+.form-group { margin-bottom: 1.4rem; }
+
+.form-group .group-label {
+  display: block;
+  font-weight: 600;
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--text-muted);
+  margin-bottom: .6rem;
+}
+
+.radio-list,
+.checkbox-list {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  max-height: 260px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: .5rem .75rem;
+  background: var(--bg);
+}
+
+.radio-list label,
+.checkbox-list label {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  cursor: pointer;
+  font-size: .9rem;
+  padding: .15rem 0;
+  border-radius: 4px;
+}
+
+.radio-list label:hover,
+.checkbox-list label:hover { color: var(--green); }
+
+.radio-row { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+
+.radio-row label {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  cursor: pointer;
+  font-size: .9rem;
+}
+
+/* ── Pill grid (category / effect buttons) ───────────────────── */
+.pill-grid { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: .25rem; }
+
+/* ── Buttons ─────────────────────────────────────────────────── */
+.btn {
+  display: inline-block;
+  padding: .52rem 1.4rem;
+  background: var(--green);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: .875rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background .15s;
+}
+.btn:hover { background: var(--green-dark); }
+
+.btn-outline {
+  background: transparent;
+  border: 1.5px solid var(--green);
+  color: var(--green);
+}
+.btn-outline:hover { background: var(--green-lt); }
+
+/* ── Tables ──────────────────────────────────────────────────── */
+.table-wrap { overflow-x: auto; border-radius: 6px; border: 1px solid var(--border); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .86rem;
+}
+
+thead tr { background: var(--green); color: white; }
+
+thead th {
+  padding: .6rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+}
+thead th.num { text-align: right; width: 3rem; }
+
+tbody tr { border-bottom: 1px solid var(--border); transition: background .1s; }
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: var(--green-lt); }
+
+tbody td { padding: .5rem 1rem; vertical-align: top; }
+tbody td.num { text-align: right; color: var(--text-muted); font-size: .8rem; width: 3rem; }
+
+/* ── Micronutrient tags ──────────────────────────────────────── */
+.mn-tag {
+  display: inline-block;
+  background: var(--green-lt);
+  color: var(--green-dark);
+  border: 1px solid #c8e6c9;
+  border-radius: 4px;
+  padding: .1rem .4rem;
+  font-size: .75rem;
+  font-weight: 500;
+  margin: .1rem .1rem .1rem 0;
+}
+
+/* ── Category badge ──────────────────────────────────────────── */
+.badge {
+  display: inline-block;
+  background: var(--green-lt);
+  color: var(--green-dark);
+  border-radius: 999px;
+  padding: .15rem .6rem;
+  font-size: .76rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.green-badge { background: var(--green-lt); color: var(--green-dark); }
+.red-badge   { background: #ffebee; color: #c62828; }
+
+/* ── Shopping coverage bar ───────────────────────────────────── */
+.coverage-bar-wrap { margin: 1.1rem 0 1.5rem; }
+
+.coverage-label {
+  font-size: .875rem;
+  color: var(--text-muted);
+  margin-bottom: .4rem;
+  font-weight: 500;
+}
+
+.coverage-bar {
+  height: 10px;
+  background: var(--border);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.coverage-fill {
+  height: 100%;
+  background: var(--green-mid);
+  border-radius: 5px;
+  transition: width .5s ease;
+}
+
+/* ── Shopping: section headings ──────────────────────────────── */
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .9rem;
+  font-weight: 700;
+  padding: .7rem 0 .45rem;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: .75rem;
+}
+
+.covered-head { color: var(--green); }
+.missing-head { color: #c62828; }
+
+.mn-row {
+  padding: .55rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.mn-row:last-child { border-bottom: none; }
+
+.mn-id   { font-weight: 700; font-size: .83rem; color: var(--text-muted); margin-right: .35rem; }
+.mn-name { font-weight: 600; }
+.mn-foods { margin-top: .2rem; font-size: .84rem; color: var(--text-muted); }
+.food-match { color: var(--green); font-weight: 500; }
+
+/* ── Day pills (shopping page) ───────────────────────────────── */
+.day-pills { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: .25rem; }
+
+.day-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .4rem 1rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--border);
+  background: white;
+  font-size: .875rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: all .15s;
+  cursor: pointer;
+}
+
+.day-pill.has-data {
+  border-color: var(--green-mid);
+  color: var(--green-dark);
+  font-weight: 600;
+}
+
+.day-pill.has-data:hover {
+  background: var(--green-lt);
+  border-color: var(--green);
+}
+
+.day-pill.empty {
+  opacity: .4;
+  cursor: default;
+  pointer-events: none;
+}
+
+.day-count {
+  display: inline-block;
+  background: var(--green-mid);
+  color: white;
+  border-radius: 999px;
+  padding: 0 .45rem;
+  font-size: .72rem;
+  font-weight: 700;
+  min-width: 1.3rem;
+  text-align: center;
+}
+
+/* ── Warning box ─────────────────────────────────────────────── */
+.warning-box {
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  border-radius: 6px;
+  padding: .7rem 1rem;
+  margin-bottom: 1.25rem;
+  font-size: .875rem;
+  color: #5d4037;
+}
+
+/* ── Back link ───────────────────────────────────────────────── */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+  color: var(--green);
+  text-decoration: none;
+  font-size: .85rem;
+  margin-bottom: 1.1rem;
+}
+.back-link:hover { text-decoration: underline; }
+
+/* ── Empty state ─────────────────────────────────────────────── */
+.empty-state {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  color: var(--text-muted);
+  font-size: .9rem;
+}

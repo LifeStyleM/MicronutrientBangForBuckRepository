@@ -1,0 +1,50 @@
+<a href="/customization/options?mn_id=<%= CGI.escape(@mn_id) %>" class="back-link">← Back to options</a>
+
+<div class="card">
+  <h2><%= h(@micronutrient.name) %></h2>
+  <p class="subtitle">
+    Sorted by <strong><%= h(@metrics[@metric]) %></strong>
+    &middot; <%= @order == :asc ? 'Ascending' : 'Descending' %>
+    &middot; <%= @sorted_foods.size %> food(s)
+  </p>
+
+  <% if @sorted_foods.empty? %>
+    <p class="empty-state">No foods found for this micronutrient.</p>
+  <% else %>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th>Food</th>
+            <th>Category</th>
+            <% @display_keys.each do |k| %>
+              <th><%= h(@metrics[k]) %></th>
+            <% end %>
+          </tr>
+        </thead>
+        <tbody>
+          <% @sorted_foods.each_with_index do |food, i| %>
+            <tr>
+              <td class="num"><%= i + 1 %></td>
+              <td><%= h(tc(food.name)) %></td>
+              <td><span class="badge"><%= h(food.category) %></span></td>
+              <% @display_keys.each do |k| %>
+                <% if k == '3' %>
+                  <td>
+                    <% food.micronutrients.each do |mn_id| %>
+                      <span class="mn-tag"><%= h(mn_id) %></span>
+                    <% end %>
+                    <span class="dim">(<%= food.micronutrients.size %>)</span>
+                  </td>
+                <% else %>
+                  <td><%= h(metric_value(food, k)) %></td>
+                <% end %>
+              <% end %>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  <% end %>
+</div>

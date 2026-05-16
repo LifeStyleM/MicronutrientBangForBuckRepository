@@ -1,0 +1,66 @@
+<a href="/customization" class="back-link">← Back to micronutrient list</a>
+
+<div class="card">
+  <h2>Sort Options</h2>
+  <p class="subtitle">
+    Micronutrient: <strong><%= h(@micronutrient.id) %> &mdash; <%= h(@micronutrient.name) %></strong>
+    &nbsp;&middot;&nbsp;
+    <span class="dim"><%= @micronutrient.foods.size %> food(s)</span>
+  </p>
+
+  <form action="/customization/result" method="get">
+    <input type="hidden" name="mn_id" value="<%= h(@mn_id) %>">
+
+    <div class="form-group">
+      <label class="group-label">Sort by</label>
+      <div class="radio-list">
+        <% @metrics.each do |key, name| %>
+          <label>
+            <input type="radio" name="metric" value="<%= h(key) %>" required
+              <%= 'checked' if key == '3' %>>
+            <%= h(name) %>
+          </label>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="form-group" id="order-group">
+      <label class="group-label">Order</label>
+      <div class="radio-row">
+        <label><input type="radio" name="order" value="asc" checked> Ascending</label>
+        <label><input type="radio" name="order" value="desc"> Descending</label>
+      </div>
+    </div>
+
+    <div class="form-group" id="side-group">
+      <label class="group-label">Also show columns</label>
+      <p class="hint">The sort metric is always included. Check any extras.</p>
+      <div class="checkbox-list">
+        <% @metrics.each do |key, name| %>
+          <label>
+            <input type="checkbox" name="side[]" value="<%= h(key) %>">
+            <%= h(name) %>
+          </label>
+        <% end %>
+      </div>
+    </div>
+
+    <button type="submit" class="btn">View Results &rarr;</button>
+  </form>
+</div>
+
+<script>
+  const metricRadios = document.querySelectorAll('input[name="metric"]');
+  const orderGroup   = document.getElementById('order-group');
+  const sideGroup    = document.getElementById('side-group');
+
+  function updateVisibility() {
+    const val = document.querySelector('input[name="metric"]:checked')?.value;
+    const isEffects = val === '4';
+    orderGroup.style.opacity = isEffects ? '0.4' : '1';
+    sideGroup.style.opacity  = isEffects ? '0.4' : '1';
+  }
+
+  metricRadios.forEach(r => r.addEventListener('change', updateVisibility));
+  updateVisibility();
+</script>
